@@ -39,7 +39,7 @@
 					<div class="logo">
 						<a href="/"
 							><img
-								src="assets/images/logo/logo.svg"
+								src="~assets/images/logo/logo.svg"
 								alt="Logo"
 								srcset=""
 						/></a>
@@ -56,10 +56,10 @@
 				<ul class="menu">
 					<li class="sidebar-title">Menu</li>
 					<li class="sidebar-item">
-						<a href="/" class="sidebar-link">
+						<NuxtLink to="/" class="sidebar-link">
 							<i class="bi bi-grid-fill"></i>
 							<span>Dashboard</span>
-						</a>
+						</NuxtLink>
 					</li>
 					<li class="sidebar-item has-sub">
 						<a href="#" class="sidebar-link" @click="toggleDropdown">
@@ -68,58 +68,78 @@
 						</a>
 						<ul class="submenu">
 							<li class="submenu-item">
-								<a href="components/alert">Alert</a>
+								<NuxtLink to="/components/alert">Alert</NuxtLink>
 							</li>
 							<li class="submenu-item">
-								<a href="component-badge.html">Badge</a>
+								<NuxtLink to="/components/badge">Badge</NuxtLink>
 							</li>
 							<li class="submenu-item">
-								<a href="component-breadcrumb.html"
-									>Breadcrumb</a
+								<NuxtLink to="/components/breadcrumb"
+									>Breadcrumb</NuxtLink
 								>
 							</li>
 							<li class="submenu-item">
-								<a href="component-button.html">Button</a>
+								<NuxtLink to="/components/button">Button</NuxtLink>
 							</li>
 							<li class="submenu-item">
-								<a href="component-card.html">Card</a>
+								<NuxtLink to="/components/card">Card</NuxtLink>
 							</li>
 							<li class="submenu-item">
-								<a href="component-carousel.html">Carousel</a>
+								<NuxtLink to="/components/carousel">Carousel</NuxtLink>
 							</li>
 							<li class="submenu-item">
-								<a href="component-collapse.html">Collapse</a>
+								<NuxtLink to="/components/collapse">Collapse</NuxtLink>
 							</li>
 							<li class="submenu-item">
-								<a href="component-dropdown.html">Dropdown</a>
+								<NuxtLink to="/components/dropdown">Dropdown</NuxtLink>
 							</li>
 							<li class="submenu-item">
-								<a href="component-list-group.html"
-									>List Group</a
+								<NuxtLink to="/components/list-group"
+									>List Group</NuxtLink
 								>
 							</li>
 							<li class="submenu-item">
-								<a href="component-modal.html">Modal</a>
+								<NuxtLink to="/components/modal">Modal</NuxtLink>
 							</li>
 							<li class="submenu-item">
-								<a href="component-navs.html">Navs</a>
+								<NuxtLink to="/components/navs">Navs</NuxtLink>
 							</li>
 							<li class="submenu-item">
-								<a href="component-pagination.html"
-									>Pagination</a
+								<NuxtLink to="/components/pagination"
+									>Pagination</NuxtLink
 								>
 							</li>
 							<li class="submenu-item">
-								<a href="component-progress.html">Progress</a>
+								<NuxtLink to="/components/progress">Progress</NuxtLink>
 							</li>
 							<li class="submenu-item">
-								<a href="component-spinner.html">Spinner</a>
+								<NuxtLink to="/components/spinner">Spinner</NuxtLink>
 							</li>
 							<li class="submenu-item">
-								<a href="component-toasts.html">Toasts</a>
+								<NuxtLink to="/components/toasts">Toasts</NuxtLink>
 							</li>
 							<li class="submenu-item">
-								<a href="component-tooltip.html">Tooltip</a>
+								<NuxtLink to="/components/tooltip">Tooltip</NuxtLink>
+							</li>
+						</ul>
+					</li>
+					<li class="sidebar-item has-sub">
+						<a href="#" class="sidebar-link" @click="toggleDropdown">
+							<i class="bi bi-stack"></i>
+							<span>Extra Components</span>
+						</a>
+						<ul class="submenu">
+							<li class="submenu-item">
+								<NuxtLink to="/extra-components/avatar">Avatar</NuxtLink>
+							</li>
+							<li class="submenu-item">
+								<NuxtLink to="/extra-components/sweet-alert">Sweet Alert</NuxtLink>
+							</li>
+							<li class="submenu-item">
+								<NuxtLink to="/extra-components/toastify">Toastify</NuxtLink>
+							</li>
+							<li class="submenu-item">
+								<NuxtLink to="/extra-components/rating">Rating</NuxtLink>
 							</li>
 						</ul>
 					</li>

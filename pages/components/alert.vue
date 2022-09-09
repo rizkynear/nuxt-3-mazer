@@ -15,7 +15,7 @@
 						class="breadcrumb-header float-start float-lg-end">
 						<ol class="breadcrumb">
 							<li class="breadcrumb-item">
-								<a href="index.html">Dashboard</a>
+								<NuxtLink to="/">Dashboard</NuxtLink>
 							</li>
 							<li
 								class="breadcrumb-item active"
